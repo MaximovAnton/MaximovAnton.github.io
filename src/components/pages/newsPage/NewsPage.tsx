@@ -21,7 +21,7 @@ const NewsPage = () => {
   };
 
   return (
-    <div style={{ display: "flex", flexDirection: 'column', alignItems: 'center', justifyContent: "center" }}>
+    <div style={{ display: "flex", flexDirection: 'column', alignItems: 'center', justifyContent: "center", minWidth: 600 }}>
       <h1>{t('newsPage')}</h1>
       <div>
         <ul>
