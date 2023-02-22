@@ -21,9 +21,9 @@ const NewsPage = () => {
   };
 
   return (
-    <div style={{ display: "flex", flexDirection: 'column', alignItems: 'center', justifyContent: "center", minWidth: 600 }}>
+    <div style={{ display: "flex", flexDirection: 'column', alignItems: 'center', justifyContent: "center" }}>
       <h1>{t('newsPage')}</h1>
-      <div>
+      <div style={{ minWidth: 600 }}>
         <ul>
           {news.data.map((item: any) => (
             <li style={{ display: "flex", alignItems: 'center', justifyContent: "space-between", margin: 5}} key={item.id}>
